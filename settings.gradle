@@ -1,0 +1,15 @@
+rootProject.name = 'Expansion-command'
+
+dependencyResolutionManagement {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        maven {
+            name = "papermc-repo"
+            url = "https://repo.papermc.io/repository/maven-public/"
+        }
+        maven {
+            url = "https://mymavenrepo.com/repo/SjKIru68icwwmC0qOtV7/"
+        }
+    }
+}
