@@ -9,10 +9,6 @@ import java.util.function.Supplier;
 
 public class ExpansionCommand extends WorldEventExpansion {
 
-    public ExpansionCommand(WorldEventsApi api) {
-        super(api);
-    }
-
     @Override
     public @NotNull String getKey() {
         return "command";
